@@ -90,4 +90,14 @@ micro-design-ai项目是一套导航系统，主要收集Github、Gitee优秀的
 | Logstash      | 7.17.3 | https://www.elastic.co/cn/downloads/logstash                 |
 | Kibana        | 7.17.3 | https://www.elastic.co/cn/downloads/kibana     
 ## 持续更新……
+
+## Star History
+
+<a href="https://star-history.com/#micro-design-awesome/micro-design-ai&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=micro-design-awesome/micro-design-ai&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=micro-design-awesome/micro-design-ai&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=micro-design-awesome/micro-design-ai&type=Date" />
+ </picture>
+</a>
 |
