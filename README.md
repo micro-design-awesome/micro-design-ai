@@ -1,83 +1,93 @@
 # micro-design-ai
-<p>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-macrozheng-blue.svg" alt="公众号"></a>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E4%BA%A4%E6%B5%81-%E5%BE%AE%E4%BF%A1%E7%BE%A4-2BA245.svg" alt="交流"></a>
-  <a href="https://github.com/macrozheng/mall"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E9%A1%B9%E7%9B%AE-mall-blue.svg" alt="后台项目"></a>
-  <a href="https://github.com/macrozheng/mall-swarm"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/Cloud%E7%89%88%E6%9C%AC-mall--swarm-brightgreen.svg" alt="SpringCloud版本"></a>
-  <a href="https://gitee.com/macrozheng/mall-admin-web"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E7%A0%81%E4%BA%91-%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80-orange.svg" alt="码云"></a>
-</p>
+![https://gitee.com/MicroDesign/micro-design-ai/blob/master/docs/images/bg.png](https://gitee.com/MicroDesign/micro-design-ai/blob/master/docs/images/bg.png)
 
-## 前言
+#### 前言
+基于MicroDesignUI的项目收集导航，持续更新……
 
-该项目为前后端分离项目的前端部分，后端项目`mall`地址：[传送门](https://github.com/macrozheng/mall) 。
+#### 项目文档
+文档地址：https://microdesign.gitee.io/micro-design-ai/
+#### 项目介绍
+micro-design-ai项目是一套导航系统，主要收集Github、Gitee优秀的开源项目，并进行归类整理，不定期进行更新……
 
-## 项目介绍
+#### 项目演示
+项目演示地址：https://microdesign.gitee.io/micro-design-ai/
+#### 后端技术
 
-`mall-admin-web`是一个电商后台管理系统的前端项目，基于Vue+Element实现。主要包括商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等功能。
+| 技术                 | 说明                | 官网                                           |
+| -------------------- | ------------------- | ---------------------------------------------- |
+| SpringBoot           | Web应用开发框架      | https://spring.io/projects/spring-boot         |
+| SpringSecurity       | 认证和授权框架      | https://spring.io/projects/spring-security     |
+| MyBatis              | ORM框架             | http://www.mybatis.org/mybatis-3/zh/index.html |
+| MyBatisGenerator     | 数据层代码生成器     | http://www.mybatis.org/generator/index.html    |
+| Elasticsearch        | 搜索引擎            | https://github.com/elastic/elasticsearch       |
+| RabbitMQ             | 消息队列            | https://www.rabbitmq.com/                      |
+| Redis                | 内存数据存储         | https://redis.io/                              |
+| MongoDB              | NoSql数据库         | https://www.mongodb.com                        |
+| LogStash             | 日志收集工具        | https://github.com/elastic/logstash            |
+| Kibana               | 日志可视化查看工具  | https://github.com/elastic/kibana              |
+| Nginx                | 静态资源服务器      | https://www.nginx.com/                         |
+| Docker               | 应用容器引擎        | https://www.docker.com                         |
+| Jenkins              | 自动化部署工具      | https://github.com/jenkinsci/jenkins           |
+| Druid                | 数据库连接池        | https://github.com/alibaba/druid               |
+| OSS                  | 对象存储            | https://github.com/aliyun/aliyun-oss-java-sdk  |
+| MinIO                | 对象存储            | https://github.com/minio/minio                 |
+| JWT                  | JWT登录支持         | https://github.com/jwtk/jjwt                   |
+| Lombok               | Java语言增强库      | https://github.com/rzwitserloot/lombok         |
+| Hutool               | Java工具类库        | https://github.com/looly/hutool                |
+| PageHelper           | MyBatis物理分页插件 | http://git.oschina.net/free/Mybatis_PageHelper |
+| Swagger-UI           | API文档生成工具      | https://github.com/swagger-api/swagger-ui      |
+| Hibernator-Validator | 验证框架            | http://hibernate.org/validator                 |
+#### 前端技术
 
-### 项目演示
+| 技术       | 说明                  | 官网                                   |
+| ---------- | --------------------- | -------------------------------------- |
+| Vue        | 前端框架              | https://vuejs.org/                     |
+| Vue-router | 路由框架              | https://router.vuejs.org/              |
+| Vuex       | 全局状态管理框架      | https://vuex.vuejs.org/                |
+| Element    | 前端UI框架            | https://element.eleme.io               |
+| Axios      | 前端HTTP框架          | https://github.com/axios/axios         |
+| v-charts   | 基于Echarts的图表框架 | https://v-charts.js.org/               |
+| Js-cookie  | cookie管理工具        | https://github.com/js-cookie/js-cookie |
+| nprogress  | 进度条控件            | https://github.com/rstacruz/nprogress  |
+#### 移动端技术
 
-项目在线演示地址：[https://www.macrozheng.com/admin/](https://www.macrozheng.com/admin/)
+| 技术         | 说明             | 官网                                    |
+| ------------ | ---------------- | --------------------------------------- |
+| Vue          | 核心前端框架     | https://vuejs.org                       |
+| Vuex         | 全局状态管理框架 | https://vuex.vuejs.org                  |
+| uni-app      | 移动端前端框架   | https://uniapp.dcloud.io                |
+| mix-mall     | 电商项目模板     | https://ext.dcloud.net.cn/plugin?id=200 |
+| luch-request | HTTP请求框架     | https://github.com/lei-mu/luch-request  |
+| 工具          | 说明                | 官网                                            |
+| ------------- | ------------------- | ----------------------------------------------- |
+| IDEA          | 开发IDE             | https://www.jetbrains.com/idea/download         |
+| RedisDesktop  | redis客户端连接工具 | https://github.com/qishibo/AnotherRedisDesktopManager  |
+| Robomongo     | mongo客户端连接工具 | https://robomongo.org/download                  |
+| SwitchHosts   | 本地host管理        | https://oldj.github.io/SwitchHosts/             |
+| X-shell       | Linux远程连接工具   | http://www.netsarang.com/download/software.html |
+| Navicat       | 数据库连接工具      | http://www.formysql.com/xiazai.html             |
+| PowerDesigner | 数据库设计工具      | http://powerdesigner.de/                        |
+| Axure         | 原型设计工具        | https://www.axure.com/                          |
+| MindMaster    | 思维导图设计工具    | http://www.edrawsoft.cn/mindmaster              |
+| ScreenToGif   | gif录制工具         | https://www.screentogif.com/                    |
+| ProcessOn     | 流程图绘制工具      | https://www.processon.com/                      |
+| PicPick       | 图片处理工具        | https://picpick.app/zh/                         |
+| Snipaste      | 屏幕截图工具        | https://www.snipaste.com/                       |
+| Postman       | API接口调试工具      | https://www.postman.com/                        |
+| Typora        | Markdown编辑器      | https://typora.io/                              |
 
-![后台管理系统功能演示](http://img.macrozheng.com/mall/project/mall_admin_show.png)
+### 开发环境
 
-### 技术选型
-
-| 技术              | 说明                  | 官网                                                         |
-| ----------------- | --------------------- | ------------------------------------------------------------ |
-| Vue               | 前端框架              | [https://vuejs.org/](https://vuejs.org/)                     |
-| Vue-router        | 路由框架              | [https://router.vuejs.org/](https://router.vuejs.org/)       |
-| Vuex              | 全局状态管理框架      | [https://vuex.vuejs.org/](https://vuex.vuejs.org/)           |
-| Element           | 前端UI框架            | [https://element.eleme.io/](https://element.eleme.io/)       |
-| Axios             | 前端HTTP框架          | [https://github.com/axios/axios](https://github.com/axios/axios) |
-| v-charts          | 基于Echarts的图表框架 | [https://v-charts.js.org/](https://v-charts.js.org/)         |
-| Js-cookie         | cookie管理工具        | [https://github.com/js-cookie/js-cookie](https://github.com/js-cookie/js-cookie) |
-| nprogress         | 进度条控件            | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress) |
-| vue-element-admin | 项目脚手架参考        | [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) |
-
-### 项目布局
-
-``` lua
-src -- 源码目录
-├── api -- axios网络请求定义
-├── assets -- 静态图片资源文件
-├── components -- 通用组件封装
-├── icons -- svg矢量图片文件
-├── router -- vue-router路由配置
-├── store -- vuex的状态管理
-├── styles -- 全局css样式
-├── utils -- 工具类
-└── views -- 前端页面
-    ├── home -- 首页
-    ├── layout -- 通用页面加载框架
-    ├── login -- 登录页
-    ├── oms -- 订单模块页面
-    ├── pms -- 商品模块页面
-    └── sms -- 营销模块页面
-```
-
-## 搭建步骤
-- 下载node并安装：[https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi](https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi);
-- 该项目为前后端分离项目，访问本地访问接口需搭建后台环境，搭建请参考后端项目[传送门](https://github.com/macrozheng/mall);
-- 访问在线接口无需搭建后台环境，只需将`config/dev.env.js`文件中的`BASE_API`改为[https://admin-api.macrozheng.com](https://admin-api.macrozheng.com)即可;
-- 如果你对接的是[mall-swarm](https://github.com/macrozheng/mall-swarm) 微服务后台的话，所有接口都需要通过网关访问，需要将`config/dev.env.js`文件中的`BASE_API`改为[http://localhost:8201/mall-admin](http://localhost:8201/mall-admin) ；
-- 克隆源代码到本地，使用IDEA打开，并完成编译;
-- 在IDEA命令行中运行命令：`npm install`,下载相关依赖;
-- 在IDEA命令行中运行命令：`npm run dev`,运行项目;
-- 访问地址：[http://localhost:8090](http://localhost:8090) 即可打开后台管理系统页面;
-- 具体部署过程请参考：[mall前端项目的安装与部署](https://www.macrozheng.com/mall/deploy/mall_deploy_web.html)
-- 前端自动化部署请参考：[使用Jenkins一键打包部署前端应用，就是这么6！](https://www.macrozheng.com/mall/reference/jenkins_vue.html)
-
-## 公众号
-
-学习不走弯路，关注公众号「**macrozheng**」，回复「**学习路线**」，获取mall项目专属学习路线！
-
-加微信群交流，公众号后台回复「**加群**」即可。
-
-![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)
-
-## 许可证
-
-[Apache License 2.0](https://github.com/macrozheng/mall-admin-web/blob/master/LICENSE)
-
-Copyright (c) 2018-2024 macrozheng
+| 工具          | 版本号 | 下载                                                         |
+| ------------- | ------ | ------------------------------------------------------------ |
+| JDK           | 1.8    | https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html |
+| MySQL         | 5.7    | https://www.mysql.com/                                       |
+| Redis         | 7.0    | https://redis.io/download                                    |
+| MongoDB       | 5.0    | https://www.mongodb.com/download-center                      |
+| RabbitMQ      | 3.10.5 | http://www.rabbitmq.com/download.html                        |
+| Nginx         | 1.22   | http://nginx.org/en/download.html                            |
+| Elasticsearch | 7.17.3 | https://www.elastic.co/downloads/elasticsearch               |
+| Logstash      | 7.17.3 | https://www.elastic.co/cn/downloads/logstash                 |
+| Kibana        | 7.17.3 | https://www.elastic.co/cn/downloads/kibana     
+## 持续更新……
+|
